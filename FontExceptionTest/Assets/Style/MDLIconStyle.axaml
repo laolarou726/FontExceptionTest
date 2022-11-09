@@ -1,0 +1,15 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Design.PreviewWith>
+		<Border Padding="20">
+			<TextBlock Classes="MDLIcon" FontSize="45" Text="&#xE113;" />
+		</Border>
+	</Design.PreviewWith>
+
+	<Style Selector="TextBlock.MDLIcon">
+		<!-- If you comment out the code below, the exception will appear. -->
+		<!--Setter Property="FontFamily" Value="/Assets/Font/#Segoe Fluent Icons" /-->
+
+		<Setter Property="Foreground" Value="{DynamicResource LauncherX.Foreground.Primary}" />
+	</Style>
+</Styles>

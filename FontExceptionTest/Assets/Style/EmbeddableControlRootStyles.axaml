@@ -1,0 +1,18 @@
+﻿<Style xmlns="https://github.com/avaloniaui" Selector="EmbeddableControlRoot">
+    <Setter Property="Background" Value="{DynamicResource SolidBackgroundFillColorBaseBrush}" />
+    <Setter Property="FontSize" Value="{DynamicResource ControlContentThemeFontSize}" />
+    <Setter Property="Template">
+        <ControlTemplate>
+            <Panel>
+                <Border IsHitTestVisible="False" />
+                <Border Background="{TemplateBinding Background}">
+                    <VisualLayerManager>
+                        <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}"
+                                          Content="{TemplateBinding Content}"
+                                          Margin="{TemplateBinding Padding}" />
+                    </VisualLayerManager>
+                </Border>
+            </Panel>
+        </ControlTemplate>
+    </Setter>
+</Style>

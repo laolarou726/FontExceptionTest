@@ -1,0 +1,38 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Styles.Resources>
+        <FontFamily x:Key="DefaultFontFamily">
+            /Assets/Font/#DINPro,Microsoft YaHei UI
+        </FontFamily>
+    </Styles.Resources>
+
+    <Style Selector="TextBlock">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <Style Selector="UserControl">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <Style Selector="ContentControl">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <Style Selector="WindowBase">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <Style Selector="TextBox">
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <Style Selector="ContentPresenter">
+        <Setter Property="TextBlock.FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+    <Style Selector="TextPresenter">
+        <Setter Property="TextBlock.FontFamily" Value="{DynamicResource DefaultFontFamily}" />
+    </Style>
+
+</Styles>

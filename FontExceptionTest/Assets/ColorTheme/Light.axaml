@@ -1,0 +1,53 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:system="clr-namespace:System;assembly=System.Runtime">
+    <Styles.Resources>
+        <system:String x:Key="LauncherX.DefaultShadow">4 4 10 0 #20212121</system:String>
+
+        <SolidColorBrush x:Key="LauncherX.Foreground.Error" Color="#ff1744" />
+
+        <SolidColorBrush x:Key="LauncherX.Foreground.Primary" Color="#000000" />
+        <SolidColorBrush x:Key="LauncherX.Foreground.Secondary" Color="#1b1b1b" />
+        <SolidColorBrush x:Key="LauncherX.Foreground.Tertiary" Color="#373737" />
+
+        <SolidColorBrush x:Key="LauncherX.Transparent.Primary" Color="#59FFFFFF" />
+        <SolidColorBrush x:Key="LauncherX.Transparent.Secondary" Color="#8CFFFFFF" />
+        <SolidColorBrush x:Key="LauncherX.Transparent.Tertiary" Color="#BFFFFFFF" />
+
+        <SolidColorBrush x:Key="LauncherX.Transparent.Reverse.Primary" Color="#59000000" />
+        <SolidColorBrush x:Key="LauncherX.Transparent.Reverse.Secondary" Color="#8C000000" />
+        <SolidColorBrush x:Key="LauncherX.Transparent.Reverse.Tertiary" Color="#BF000000" />
+
+        <SolidColorBrush x:Key="LauncherX.Foreground.Reverse.Primary" Color="#fafafa" />
+        <SolidColorBrush x:Key="LauncherX.Foreground.Reverse.Secondary" Color="#f5f5f5" />
+        <SolidColorBrush x:Key="LauncherX.Foreground.Reverse.Tertiary" Color="#eeeeee" />
+
+        <SolidColorBrush x:Key="LauncherX.BorderBrush" Color="#A8A8A8" />
+        <SolidColorBrush x:Key="LauncherX.BorderBrush.MouseOver" Color="LightGray" />
+        <SolidColorBrush x:Key="LauncherX.BorderBrush.Pressed" Color="#FFB8B8B8" />
+        <SolidColorBrush x:Key="LauncherX.BorderBrush.Reverse" Color="#8a8886" />
+        <SolidColorBrush x:Key="LauncherX.BorderBrush.Reverse.MouseOver" Color="LightGray" />
+        <SolidColorBrush x:Key="LauncherX.BorderBrush.Reverse.Pressed" Color="#FFB8B8B8" />
+
+        <SolidColorBrush x:Key="LauncherX.ContentBackground" Color="#FFF7F7F7" />
+        <SolidColorBrush x:Key="LauncherX.ContentBackground.Primary" Color="#FFFFFFFF" />
+        <SolidColorBrush x:Key="LauncherX.ContentBackground.Secondary" Color="#FFEEEEEE" />
+        <SolidColorBrush x:Key="LauncherX.ContentBackground.Tertiary" Color="#FFE2E2E2" />
+
+        <Color x:Key="LauncherX.ContentBackground.Media">#FFF7F7F7</Color>
+        <Color x:Key="LauncherX.ContentBackground.Primary.Media">#FFFFFFFF</Color>
+        <Color x:Key="LauncherX.ContentBackground.Secondary.Media">#FFEEEEEE</Color>
+        <Color x:Key="LauncherX.ContentBackground.Tertiary.Media">#FFE2E2E2</Color>
+
+        <SolidColorBrush x:Key="LauncherX.ButtonBackground" Color="#FFFFFF" />
+        <SolidColorBrush x:Key="LauncherX.ButtonBackground.MouseOver" Color="LightGray" />
+        <SolidColorBrush x:Key="LauncherX.ButtonBackground.Pressed" Color="#FFB8B8B8" />
+        <SolidColorBrush x:Key="LauncherX.ButtonBackground.Primary" Color="LightGray" />
+        <SolidColorBrush x:Key="LauncherX.ButtonBackground.Primary.MouseOver" Color="LightGray" />
+        <SolidColorBrush x:Key="LauncherX.ButtonBackground.Primary.Pressed" Color="#FFB8B8B8" />
+
+        <SolidColorBrush x:Key="LauncherX.Placeholder" Color="#FF606060" />
+
+        <Color x:Key="LauncherX.Notify.Hover">#4CFFFFFF</Color>
+    </Styles.Resources>
+</Styles>

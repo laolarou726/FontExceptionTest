@@ -1,0 +1,10 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StyleInclude Source="avares://FontExceptionTest/Assets/Style/FocusAdornerStyles.axaml" />
+	<StyleInclude Source="avares://FontExceptionTest/Assets/Style/UserControlStyles.axaml" />
+	<StyleInclude Source="avares://FontExceptionTest/Assets/Style/ContentControlStyle.axaml" />
+    <StyleInclude Source="avares://FontExceptionTest/Assets/Style/EmbeddableControlRootStyles.axaml" />
+    <StyleInclude Source="avares://FontExceptionTest/Assets/Style/ButtonStyle.axaml" />
+    <StyleInclude Source="avares://FontExceptionTest/Assets/Style/WindowStyle.axaml" />
+    <StyleInclude Source="avares://FontExceptionTest/Assets/Style/MDLIconStyle.axaml" />
+</Styles>
