@@ -8,7 +8,7 @@
 
 	<Style Selector="TextBlock.MDLIcon">
 		<!-- If you comment out the code below, the exception will appear. -->
-		<!--Setter Property="FontFamily" Value="/Assets/Font/#Segoe Fluent Icons" /-->
+		<Setter Property="FontFamily" Value="/Assets/Font/SegoeIcons.ttf#Segoe Fluent Icons" />
 
 		<Setter Property="Foreground" Value="{DynamicResource LauncherX.Foreground.Primary}" />
 	</Style>
